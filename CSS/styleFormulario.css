@@ -5,12 +5,14 @@ body{
 }
 
 .menu {
-    background: linear-gradient(90deg, #000 40%, #CDA54D 55%);                                         
+    background: linear-gradient(90deg, #000 40%, #CDA54D 45%);                                         
     width: 100vw;
     height: 15vh;
     display: flex;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0.01%;
 }
 
 .menu img {
@@ -24,7 +26,7 @@ body{
     justify-content: flex-end;
     align-items: flex-end;
     width: 100vh;
-    margin-right: 8%;
+    margin-right: 7%;
 }
 
 .botonInicio a {
@@ -43,6 +45,7 @@ body{
     background-color: #e1c17b;
     border: 2px solid #ffffff;
 }
+
 .botonInicio a:active { 
     background: #faaf4d;
   }
