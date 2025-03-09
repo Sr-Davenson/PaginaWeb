@@ -62,6 +62,7 @@ body{
     background-color: #f8f8f8;
     margin: 0;
     padding: 0;
+    background-color: #eae4d5;
 }
 
 .container{
@@ -71,7 +72,7 @@ body{
 }
 
 .title {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
     color: #a52a2a;
     margin-bottom: 10px;
@@ -82,12 +83,12 @@ body{
     color:#666666;
     max-width: 600px;
     margin: 0 auto 30px;
+    
 }
 
 .cerveza-list{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
 }
 .cerveza-item{
@@ -110,10 +111,9 @@ body{
     color: #a52a2a;
     margin: 10px 0;
 }
-
-.coffe-item p{
+.cerveza-item p{
     font-size: 14px;
-    color: #666;
+    color: #222222;
 }
 .info-bot{
     background-color: #b96f4c;
