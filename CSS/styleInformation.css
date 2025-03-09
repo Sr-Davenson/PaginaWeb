@@ -1,0 +1,22 @@
+body{
+    padding: 0%;
+    Margin: 0%;
+}
+
+.header {
+    background: linear-gradient(90deg, #000 40%, #CDA54D 45%);
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0.01%;
+}
+
+.header img{
+    margin-left: 6%;
+    height: 100%;
+    width: 7%;
+}
+
