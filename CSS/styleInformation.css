@@ -1,9 +1,11 @@
 body{
     padding: 0%;
     Margin: 0%;
+    background-color:#FAF3E0;;
+    font-family:'Times New Roman', Times, serif;
 }
 
-.header {
+.menu {
     background: linear-gradient(90deg, #000 40%, #CDA54D 45%);                                         
     width: 100vw;
     height: 15vh;
@@ -14,7 +16,7 @@ body{
     top: 0.01%;
 }
 
-.header img{
+.menu img{
     margin-left: 6%;
     height: 100%;
     width: 10%;
@@ -49,19 +51,103 @@ body{
     background: #faaf4d;
   }
 
-.header h1{
-    color: #ffffff;
-    width: 100;
-    height: 92px;
-    padding-left: 15vh;
-    font-size: 40px;
+.encabezado h1 {
+    font-size: 50px;
+    color: #faaf4d;
+    background-color: #000;
     display: flex;
-    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
 }
 
-.introduction h1{
+.introduction {
+    display: flex;           /* Aplica Flexbox a toda la sección */
+    align-items: center;     /* Alinea verticalmente los elementos */
+}
+
+.introduction img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 20px;      /* Añade espacio entre la imagen y el texto */
+    border-style: solid;
+    border-width: 5px;
+}
+
+.introduction section {
+    flex: 1;                 /* Permite que el contenido ocupe el espacio restante */
+}
+
+.introduction p {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;               /* Elimina el margen predeterminado del h2 */
+}
+
+.history h2{
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.history img{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    border-width: 5px;
+    border-style:solid;
+}
+.history p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.missionAndVision {
+    display: flex;           
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.missionAndVision img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 20px;    
+    border-style: solid;
+    border-width: 5px;
+}
+
+.missionAndVision section {
+    flex: 1;                 
+}
+
+.missionAndVision p {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.missionAndVision h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    width: 30%;
+    height: auto;
+}
+
+.img2 {
+    width: 30%;
+    height: auto;
+}
+
+.img3 {
+    width: 30%;
+    height: auto;
+}
