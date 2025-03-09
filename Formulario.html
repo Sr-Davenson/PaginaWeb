@@ -8,7 +8,11 @@
 </head>
 <body>
     <div class="menu">
-        <img src="Recursos/Logo.png" alt="Logo">
+        <div class="imagen">
+            <a href="index.html">
+                <img src="Recursos/Logo.png" alt="Logo">
+            </a>
+        </div>
         <div class="botonInicio">
         </div>
         <div class="botonInicio">
@@ -37,96 +41,49 @@
             <br>
             <label>Fecha De Nacimiento:</label>
             <input type="date" name="Fecha">
-                <label>Genero:</label>
-                <select name="Ciudad">
-                    <option value="1">Seleccione</option>
-                    <option value="2">Masulino</option>
-                    <option value="3">Femenino</option>
-                    <option value="4">Prefiero No Decir</option>
-                </select>
+            <label>Género:</label>
+            <select name="genero">
+                <option value="1">Seleccione</option>
+                <option value="2">Masulino</option>
+                <option value="3">Femenino</option>
+                <option value="4">Prefiero No Decir</option>
+            </select>
+            <br>
+            <label>Foto:</label>
+            <input type="file" name="Foto">
             <br>
             <label>Numero Telefonico</label>
             <input type="number" name="num" placeholder="Ej: 3101234567" min="3000000000" max="3999999999">
             <label>Direccion</label>
-            <input type="number" name="num" placeholder="Ej: 3101234567" min="3000000000" max="3999999999">
-            <label>Ciudad</label>
-            <input type="number" name="num" placeholder="Ej: 3101234567" min="3000000000" max="3999999999">
+            <input type="text" name="dirc" maxlength="40" placeholder="Ej: cll 6 # 12-40">
+            <br>
             <label>Departamento</label>
-            <input type="number" name="num" placeholder="Ej: 3101234567" min="3000000000" max="3999999999">
-            <label>Nombre de Usuario</label>
-            <input type="number" name="num" placeholder="Ej: 3101234567" min="3000000000" max="3999999999">
-            <label>Contraseña</label>
-            <input type="number" name="num" placeholder="Ej: 3101234567" min="3000000000" max="3999999999">
-            <label>Desea recibir publicidad sobre los nuevos productos</label>
-            <input type="number" name="num" placeholder="Ej: 3101234567" min="3000000000" max="3999999999">
-            <label>terminos y condiciones</label>
-            <input type="number" name="num" placeholder="Ej: 3101234567" min="3000000000" max="3999999999">
-        </fieldset>
-        
-        
-        <div>
-            <label>Edad: </label>
-            <input type="number" name="edad" value="18" min="1" max="120">
-        </div>
-        <fieldset>
-            <legend>Datos de la u ._.</legend>
-            <label>Fecha matrícula:</label>
-            <input type="date" name="Fecha">
-            <input type="color" name="color">
-            <input type="datetime-local" name="Fechaa">
-        </fieldset>
-        <div>
-            <label>Foto:</label>
-            <input type="file" name="Foto">
-        </div>
-        <div>
-            <label>Contraseña:</label>
-            <input type="password" name="contra">
-        </div>
-        <div>
-            <label>
-                <input type="radio" name="califica" value="a">
-                Clasificación 1
-            </label>
-            <label>
-                <input type="radio" name="califica" value="b" checked>
-                Clasificación 2
-            </label>
-            <label>
-                <input type="radio" name="califica" value="c">
-                Clasificación 3
-            </label>
-        </div>
-        <fieldset>
-            <legend>Listas :D</legend>
-            <label><input type="checkbox" name="opc1" value="a" checked>
-                Opción 1
-            </label>
-            <label><input type="checkbox" name="opc2" value="a">
-                Opción 2
-            </label>
-            <label><input type="checkbox" name="opc3" value="a">
-                Opción 3
-            </label>
-        </fieldset>
-        <div>
-            <label>Ciudad:</label>
-            <select name="Ciudad">
-                <option value="1">Tunja</option>
-                <option value="2">Duitama</option>
-                <option value="3" selected>Sogamoso</option>
+            <select name="Departamento">
+                <option value="1">Seleccione</option>
+                <option value="2">Masulino</option>
+                <option value="3">Femenino</option>
+                <option value="4">Prefiero No Decir</option>
             </select>
-        </div>
-        <fieldset>
-            <label>Observaciones:</label>
-            <textarea name="espacio" cols="10" rows="5">p</textarea>
+            <label>Ciudad</label>
+            <select name="Ciudad">
+                <option value="1">Seleccione</option>
+                <option value="2">Masulino</option>
+                <option value="3">Femenino</option>
+                <option value="4">Prefiero No Decir</option>
+            </select>
+            <br>
+            <label>Nombre de Usuario</label>
+            <input type="text" name="usu" placeholder="Ej: santi4893" minlength="6" maxlength="100" >
+            <label>Contraseña</label>
+            <input type="password" name="contra" placeholder="Ingresa Contraseña" minlength="8" maxlength="100">
+            <label>Desea recibir publicidad sobre los nuevos productos</label>
+            <input type="checkbox" name="opc1" value="a">
+            <label>terminos y condiciones</label>
+            <input type="checkbox" name="opc1" value="a">
         </fieldset>
         <div>
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpiar</button>
-        </div>
-        <div>
-            <label for="">Código:</label>
+            <a href="Formulario.html">Limpiar</a>
+            <a href="inicioSesion.html">Enviar</a>
             <input type="hidden" name="cod" value="123">
         </div>
     </form>
