@@ -4,12 +4,12 @@ body{
 }
 
 .header {
-    background: linear-gradient(90deg, #000 40%, #CDA54D 45%);
+    background: linear-gradient(90deg, #000 40%, #CDA54D 45%);                                         
     width: 100vw;
     height: 15vh;
     display: flex;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     position: sticky;
     top: 0.01%;
 }
@@ -17,6 +17,51 @@ body{
 .header img{
     margin-left: 6%;
     height: 100%;
-    width: 7%;
+    width: 10%;
+}
+
+.botonInicio {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100vh;
+    margin-right: 7%;
+}
+
+.botonInicio a {
+    height: 40px;
+    width: 20%;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #CDA54D;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 120%;
+}
+
+.botonInicio a:hover {
+    background-color: #e1c17b;
+    border: 2px solid #ffffff;
+}
+
+.botonInicio a:active { 
+    background: #faaf4d;
+  }
+
+.header h1{
+    color: #ffffff;
+    width: 100;
+    height: 92px;
+    padding-left: 15vh;
+    font-size: 40px;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.introduction h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
