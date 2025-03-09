@@ -24,6 +24,7 @@
         </div>
     </div>
     <form class="formulario" action="#">
+        <h1>Formulario de Registro</h1>
         <fieldset>
             <label>Primer Nombre: </label>
             <input type="text" name="nom" placeholder="Ingrese su nombre" required>
@@ -64,7 +65,7 @@
                 <option value="3">Femenino</option>
                 <option value="4">Prefiero No Decir</option>
             </select>
-            <label>Ciudad</label>
+            <label for="Ciudad"">Ciudad</label>
             <select name="Ciudad">
                 <option value="1">Seleccione</option>
                 <option value="2">Masulino</option>
@@ -76,17 +77,19 @@
             <input type="text" name="usu" placeholder="Ej: santi4893" minlength="6" maxlength="100" >
             <label>Contraseña</label>
             <input type="password" name="contra" placeholder="Ingresa Contraseña" minlength="8" maxlength="100">
-            <label>Desea recibir publicidad sobre los nuevos productos</label>
+            <label>Confirmar Contraseña</label>
+            <input type="password" name="contra" placeholder="Ingresa Contraseña" minlength="8" maxlength="100">
+            <label><p></p>Desea recibir publicidad sobre <br>nuestros nuevos productos</label>
             <input type="checkbox" name="opc1" value="a">
-            <label>terminos y condiciones</label>
+            <label><p></p>Acepta nuestros <br>Terminos y condiciones</label>
             <input type="checkbox" name="opc1" value="a">
         </fieldset>
-        <div>
-            <a href="Formulario.html">Limpiar</a>
-            <a href="inicioSesion.html">Enviar</a>
-            <input type="hidden" name="cod" value="123">
-        </div>
     </form>
-    <a href="Index.html">Volver</a>
+    <div class="botones">
+        <a href="Formulario.html">Limpiar</a>
+        <a href="inicioSesion.html">Enviar</a>
+        <input type="hidden" name="cod" value="123">
+    </div>
+    <br><br><br><br><br>
 </body>
 </html>

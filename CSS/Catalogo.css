@@ -1,4 +1,3 @@
-
 body{
     padding: 0%;
     margin: 0%;
@@ -16,9 +15,16 @@ body{
 }
 
 .menu img {
-    margin-left: 6%;
+    margin-left: 35%;
     height: 100%;
-    width: 10%;
+    width: 20%;
+    transition-property: background-color, box-shadow;
+    transition: transform 0.3s ease-in-out,filter 0.3s ease;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2) contrast(1.1);
 }
 
 .botonInicio {
@@ -39,6 +45,15 @@ body{
     border-radius: 5px;
     margin: 10px;
     font-size: 120%;
+}
+
+.botonInicio a:hover {
+    background-color: #e1c17b;
+    border: 2px solid #ffffff;
+}
+
+.botonInicio a:active { 
+    background: #faaf4d;
 }
 
 body{
