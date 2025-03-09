@@ -1,0 +1,118 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.menu {
+    background: linear-gradient(90deg, #000 40%, #CDA54D 45%);                                         
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0.01%;
+}
+
+.menu img {
+    margin-left: 6%;
+    height: 100%;
+    width: 10%;
+}
+
+.botonInicio {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100vh;
+    margin-right: 7%;
+}
+
+.botonInicio a {
+    height: 40px;
+    width: 20%;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #CDA54D;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 120%;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #a52a2a;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 16 px;
+    color:#666666;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.cerveza-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cerveza-item{
+    width: 30%;
+    text-align: center;
+}
+.cerveza-item img {
+    width: 130px;
+    height: 150px;
+    border-radius: 90%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.cerveza-item img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.cerveza-item h3 {
+    font-size: 18px;
+    color: #a52a2a;
+    margin: 10px 0;
+}
+
+.coffe-item p{
+    font-size: 14px;
+    color: #666;
+}
+.info-bot{
+    background-color: #b96f4c;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+
+}
+.info-bot:hover {
+    background-color: #9a5c3a;
+    transform: scale(1.05);
+}
