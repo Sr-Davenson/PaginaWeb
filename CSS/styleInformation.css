@@ -11,15 +11,22 @@ body{
     height: 15vh;
     display: flex;
     align-items: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: sticky;
     top: 0.01%;
 }
 
-.menu img{
-    margin-left: 6%;
+.header img {
+    margin-left: 35%;
     height: 100%;
-    width: 10%;
+    width: 20%;
+    transition-property: background-color, box-shadow;
+    transition: transform 0.3s ease-in-out,filter 0.3s ease;
+}
+
+.header img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2) contrast(1.1);
 }
 
 .botonInicio {

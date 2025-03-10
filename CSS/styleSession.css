@@ -69,8 +69,7 @@ p{
 .Session a:hover {
     background-color: #080808;
     border: 2px solid #ffffff;
-    box-shadow: 0 4px 8px rgba(209, 159, 52, 0.999);
-
+    box-shadow: 0 4px 8px rgba(71, 70, 60, 0.999);
 }
 
 .Session a:active { 
