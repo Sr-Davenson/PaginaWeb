@@ -176,21 +176,47 @@ body{
 }
 
 .quadrants {
+    margin-top: 8%;
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
-    grid-template-rows: 1fr 1fr; /* Dos filas iguales */
-    height: 100vh; /* O ajusta según lo que necesites */
+    grid-template-rows: 1fr; /* Dos filas iguales */
+    height: auto; /* O ajusta según lo que necesites */
     gap: 10px; /* Espacio entre los cuadrantes */
 }
 
-.quadrant {
+.quadrant1 {
+    display: flex;
+    
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: #CDA54D; /* Color de fondo */
+}
+.quadrant1 p{ 
+
+    font-size: 50px;
+    margin-top: 0;
+}
+.quadrant2 img {
+    width: 100%;
+    height: auto;
+}
+.quadrant2 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     font-weight: bold;
     border: 2px solid black;
-    background-color: #f4f4f4; /* Color de fondo */
+    background-color: #CDA54D; /* Color de fondo */
+}
+
+.infoComplementaria h2 {
+    font-size: 50px;
+    margin-top: 8%;
+    text-align: center;
+
 }
 
 
