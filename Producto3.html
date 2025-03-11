@@ -2,9 +2,82 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styleProducto3.css">
+    <link rel="icon" href="Recursos/Logo.ico">
+    <title>Cerveza de marayucá</title>
 </head>
 <body>
-    <a href="Index.html">Volver</a>
+    <div class="menu">
+        <div class="imagen">
+            <a href="index.html">
+                <img src="Recursos/Logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="botonInicio">
+        </div>
+        <div class="botonInicio">
+            <a href="Index.html">Inicio</a>
+            <a href="Catalogo.html">Catálogo</a>
+            <a href="Info.html">Sobre Nosotros</a>
+            <a href="Formulario.html">Registrarse</a>
+            <a href="inicioSesion.html">Iniciar Sesion</a>
+        </div>
+    </div>
+    <div class="producto">
+        <div class="imagenProducto">
+            <h1>Cerveza de marayucá</h1>
+            <img src="Recursos/maracuya.jpg" alt="Cerveza de marayucá">
+        </div>
+        <div class="detallesProducto">
+            <div class="sabores">
+                <h2>Elige Dos Sabores Adicionales</h2>
+                <form>
+                    <input type="checkbox" id="sabores1" name="sabores" value="Mango">
+                    <label for="sabores1">Mango</label><br>
+                    <input type="checkbox" id="sabores2" name="sabores" value="Limón">
+                    <label for="sabores2">Limón</label><br>
+                    <input type="checkbox" id="sabores3" name="sabores" value="Maracuyá">
+                    <label for="sabores3">Fresa</label><br>
+                    <input type="checkbox" id="sabores4" name="sabores" value="Piña">
+                    <label for="sabores4">Piña</label><br>
+                </form>
+            </div>
+
+            <div class="especificaciones">
+                <h2>Especificaciones del Producto</h2>
+                <ul>
+                    <li>Volumen: 500 ml</li>
+                    <li>Alcohol: 5.5%</li>
+                    <li>Ingredientes: Agua, cebada, lúpulo, marayucá</li>
+                </ul>
+            </div>
+            <p>Descripción del producto: Una cerveza artesanal <br> de marayucá con un sabor único y refrescante.</p>
+            <p>Precio: $0 COP</p>
+            <br>
+            <button class="botonCompra">Comprar</button>
+        </div>
+    </div>
+
+    <div class="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="imagenes">
+            <div class="imagenGaleria" id="galeria-img1">
+                <img src="Recursos/Cerveza1.png" alt="Cerveza de marayucá">
+            </div>
+            <div class="imagenGaleria" id="galeria-img2">
+                <img src="Recursos/Cerveza2.png" alt="Cerveza de marayucá">
+            </div>
+        </div>
+    </div>
+    <div class="opiniones">
+        <h2>Opiniones de Clientes</h2>
+        <div class="opinion">
+            <p><strong>Juan Pérez:</strong> Excelente cerveza, me encantó el sabor y la frescura. ¡La recomiendo!</p>
+        </div>
+        <div class="opinion">
+            <p><strong>María Rodríguez:</strong> Me gustó mucho, perfecta para disfrutar con amigos.</p>
+        </div>
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,102 @@
+body{
+    background-color: #FAF3E0;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.menu {
+    background: linear-gradient(90deg, #000 40%, #CDA54D 45%);                                         
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0.01%;
+}
+
+.menu img {
+    margin-left: 35%;
+    height: 100%;
+    width: 20%;
+    transition-property: background-color, box-shadow;
+    transition: transform 0.3s ease-in-out,filter 0.3s ease;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2) contrast(1.1);
+}
+
+.botonInicio {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100vh;
+    margin-right: 7%;
+}
+
+.botonInicio a {
+    height: 40px;
+    width: 20%;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #CDA54D;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 120%;
+}
+
+.botonInicio a:hover {
+    background-color: #e1c17b;
+    border: 2px solid #ffffff;
+}
+
+.botonInicio a:active { 
+    background: #faaf4d;
+}
+.producto {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* padding: 20px; */
+}
+
+.imagenProducto img {
+    width: 50%;
+    flex-direction: column;
+    margin: 5% 0% 5% 25%;
+}
+.imagenProducto h1 {
+    text-align: center;
+}
+
+.detallesProducto  h2{
+    text-align: center;
+}
+
+.botonCompra {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    border-top:0px;
+    border-left: 0px;
+    border-right: 0px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.botonCompra:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(71, 70, 60, 0.999);
+}
+
+.botonCompra:active{
+    background-color: #2c602f;
+}

@@ -67,6 +67,7 @@ body{
 }
 
 .introduction {
+    margin-top: 10%;
     display: flex;           /* Aplica Flexbox a toda la sección */
     align-items: center;     /* Alinea verticalmente los elementos */
 }
@@ -90,6 +91,7 @@ body{
 }
 
 .history h2{
+    margin-top: 8%;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -108,38 +110,73 @@ body{
     text-align: center;
 }
 
-.missionAndVision {
+.mission {
+    margin-top: 8%;
     display: flex;           
     flex-direction: row-reverse;
     align-items: center;
 }
 
-.missionAndVision img {
+.mission img {
     max-width: 30%;
     height: auto;
-    margin-right: 20px;    
+    margin-left: 20px;    
     border-style: solid;
     border-width: 5px;
 }
 
-.missionAndVision section {
+.mission section {
     flex: 1;                 
 }
 
-.missionAndVision p {
+.mission p {
     font-size: 30px;
     text-align: center;
     margin: 0;
 }
 
-.missionAndVision h2{
+.mission h2{
+    margin-top: -10%;
     font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.vision {
+    margin-top: 10%;
+    display: flex;           /* Aplica Flexbox a toda la sección */
+    align-items: center;     /* Alinea verticalmente los elementos */
+}
+
+.vision img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 20px;      /* Añade espacio entre la imagen y el texto */
+    border-style: solid;
+    border-width: 5px;
+}
+
+.vision section {
+    flex: 1;                 /* Permite que el contenido ocupe el espacio restante */
+}
+
+.vision h2{
+    margin-top: -10%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision p {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;               /* Elimina el margen predeterminado del h2 */
+}
+
 .contenedor{
+    margin-top: 8%;
     display: flex;
     justify-content: center;
 }
