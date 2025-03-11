@@ -144,7 +144,7 @@ body{
 }
 
 .vision {
-    margin-top: 10%;
+    margin-top: 8%;
     display: flex;           /* Aplica Flexbox a toda la sección */
     align-items: center;     /* Alinea verticalmente los elementos */
 }
@@ -174,6 +174,25 @@ body{
     text-align: center;
     margin: 0;               /* Elimina el margen predeterminado del h2 */
 }
+
+.quadrants {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    grid-template-rows: 1fr 1fr; /* Dos filas iguales */
+    height: 100vh; /* O ajusta según lo que necesites */
+    gap: 10px; /* Espacio entre los cuadrantes */
+}
+
+.quadrant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
 
 .contenedor{
     margin-top: 8%;
