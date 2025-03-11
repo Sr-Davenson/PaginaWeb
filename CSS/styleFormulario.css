@@ -39,7 +39,7 @@ body{
 .botonInicio a {
     height: 40px;
     width: 20%;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     padding: 5px 10px;
     background-color: #CDA54D;
@@ -72,14 +72,6 @@ h1{
     width: 60%; 
     background-color: #ffffff;
     box-shadow: 1px 1px 50px 3px  #d1cec6;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    
-    /* grid-template-areas: "footer footer div"
-    "nav . div"
-    "nav header header"
-    ". header header"; */
 }
 .formulario input {
     margin: 5px;
@@ -113,10 +105,13 @@ h1{
     background-color: #eaeaea;
 }
 
+.formulario input[type="checkbox"] {
+    transform: scale(1.5); 
+}
+
 .botones{
     display: flex;
     padding-top: 2%;
-    /* align-items: center; */
 }
 .botones a {
     height: 40px;
