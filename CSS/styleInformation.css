@@ -87,7 +87,7 @@ body{
 }
 
 .introduction p {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin: 0;               /* Elimina el margen predeterminado del h2 */
 }
