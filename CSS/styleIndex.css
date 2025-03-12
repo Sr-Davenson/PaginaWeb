@@ -6,6 +6,7 @@ body{
     padding: 0;
     background-color: #E9D8B7;
     color: #4b382a;
+  
 }
 
 .menu {
@@ -100,14 +101,22 @@ body{
     background-color: #ffffff;
     color: #8c674a;
 }
-
-.contenido {
+.nav{
+    body {
+        background-image: url("Recursos/fondo.jpg"); /* Ruta de la imagen */
+        background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
+}
+main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
     max-width: 1000px;
     margin: auto;
+  
 }
 
 .seccion {
@@ -173,3 +182,18 @@ body{
     height: auto;
     margin-bottom: 10px;
 }
+
+img {
+    width: 98.8vw;
+    height: auto;
+    display: block;
+    margin: auto; /* Centra la imagen */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+    opacity: 0.8; 
+}
+
