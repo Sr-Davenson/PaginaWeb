@@ -3,6 +3,7 @@ body{
     Margin: 0%;
     background-color: #E9D8B7;
     font-family:'Times New Roman', Times, serif;
+    background-color:#FAF3E0;
 }
 
 .header {
@@ -108,7 +109,7 @@ body{
     border-style:solid;
 }
 .history p{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -132,7 +133,7 @@ body{
 }
 
 .mission p {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin: 0;
 }
@@ -172,7 +173,7 @@ body{
 }
 
 .vision p {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin: 0;               /* Elimina el margen predeterminado del h2 */
 }
@@ -196,12 +197,12 @@ body{
 }
 .quadrant1 p{ 
 
-    font-size: 50px;
+    font-size: 20px;
     margin-top: 0;
 }
-.quadrant2 img {
-    width: 100%;
-    height: auto;
+.quadrant2 p {
+    font-size: 20px;
+    margin-top: 0;
 }
 .quadrant2 {
     display: flex;

@@ -140,4 +140,36 @@ body{
 
 }
 
+.contenedor{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px;
+}
 
+.img1 {
+    width: 30%;
+    height: auto;
+}
+
+.img2 {
+    width: 30%;
+    height: auto;
+}
+
+.img3 {
+    width: 30%;
+    height: auto;
+}
+
+.item {
+    width: 30%; 
+    text-align: center;
+}
+
+.item img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 10px;
+}
