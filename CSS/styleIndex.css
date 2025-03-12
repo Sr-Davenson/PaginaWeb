@@ -1,17 +1,25 @@
 body{
     padding: 0%;
     margin: 0%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e5;
+    color: #4b382a;
 }
 
 .menu {
-    background: linear-gradient(90deg, #000 40%, #CDA54D 45%);                                         
-    width: 100vw;
+    /* background: -webkit-linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);                      background: linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+                                              */
+    background: -webkit-linear-gradient(90deg, #22194d,#2d35a9,#a4843d,#a4843d,#cda54d);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #22194d,#2d35a9,#a4843d,#a4843d,#cda54d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    width: 98.8vw;
     height: 15vh;
     display: flex;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: sticky;
     top: 0.01%;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
 }
 
 .menu img {
@@ -26,6 +34,7 @@ body{
     transform: scale(1.1);
     filter: brightness(1.2) contrast(1.1);
 }
+
 .botonInicio {
     display: flex;
     justify-content: flex-end;
@@ -37,10 +46,10 @@ body{
 .botonInicio a {
     height: 40px;
     width: 20%;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     padding: 5px 10px;
-    background-color: #CDA54D;
+    background-color: rgb(205, 165, 77,0);
     border-radius: 5px;
     margin: 10px;
     font-size: 120%;
@@ -53,15 +62,8 @@ body{
 
 .botonInicio a:active { 
     background: #faaf4d;
-  }
-
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f1e5;
-    color: #4b382a;
 }
+
 .bienvenida {
     text-align: center;
     font-size: 1.8rem;
