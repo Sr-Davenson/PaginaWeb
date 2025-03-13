@@ -262,7 +262,6 @@ footer {
     width: 98.9vw;
     text-align: center; 
     padding: 20px 0px; 
-    justify-content: center;
 }
 
 footer img {
@@ -272,29 +271,19 @@ footer img {
     width: 5vw;
     transition: transform 0.3s ease-in-out, filter 0.3s ease;
 }
-footer p {
-    text-align: center;
-}
+
 footer img:hover {
     transform: scale(1.1);
     filter: brightness(1.2) contrast(1.1);
 }
 
-.redes {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-right: 90%;
-    margin-top: -11%;
-}
-
-.redes a {
+footer a {
+    margin-top: 11%;
     color: #eaeaea;
     font-size: 24px;
     text-decoration: none;
 }
 
-.redes a:hover {
-    color: #ff9800;
+footer a:hover {
+    color: #7c7c7c;
 }
-
