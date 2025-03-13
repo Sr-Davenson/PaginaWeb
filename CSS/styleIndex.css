@@ -8,6 +8,7 @@ body{
     color: #4b382a;
  
 }
+
 .menu {
     background: -webkit-linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
 
@@ -20,6 +21,7 @@ body{
     top: 0.01%;
     border-bottom-right-radius: 300px;
     border-bottom-left-radius: 300px;
+    animation: animacionSuperior 1s ease-in-out;
 }
 
 .menu img {
@@ -28,6 +30,7 @@ body{
     width: 20%;
     transition-property: background-color, box-shadow;
     transition: transform 0.3s ease-in-out,filter 0.3s ease;
+    animation: animacionSuperior 1.1s ease-in-out;
 }
 
 .menu img:hover {
@@ -53,6 +56,7 @@ body{
     border-radius: 5px;
     margin: 10px;
     font-size: 120%;
+    animation: animacionSuperior 1.1s ease-in-out;
 }
 
 .botonInicio a:hover {
@@ -63,8 +67,9 @@ body{
 .botonInicio a:active { 
     background: #faaf4d;
 }
-
-
+.cuerpo{
+    animation: animacionInferior 1s ease-in-out;
+}
 .bienvenida {
     text-align: center;
     font-size: 1.8rem;
@@ -73,7 +78,7 @@ body{
 }
 
 .navegacion {
-    background-color: #8c674a;
+    background-color: #cda54d;
     padding: 10px 0;
     text-align: center;
 }
@@ -86,8 +91,6 @@ body{
     gap: 20px;
 }
 
-
-
 .enlace-nav {
     text-decoration: none;
     color: #ffffff;
@@ -99,7 +102,7 @@ body{
 
 .enlace-nav:hover {
     background-color: #ffffff;
-    color: #8c674a;
+    color: #cda54d;
 }
 
 main {
@@ -110,6 +113,13 @@ main {
     max-width: 1000px;
     margin: auto;
   
+}
+.fondo {
+    background-image: url('../Recursos/fondo.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
 }
 
 .seccion {
@@ -139,9 +149,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 0 10px #0000001a;
     display: inline-block;
-
 }
-
 
 .contenedor{
  
@@ -182,7 +190,7 @@ img {
     width: 98.8vw;
     height: auto;
     display: block;
-    margin: auto; /* Centra la imagen */
+    margin: auto; 
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
@@ -198,4 +206,20 @@ img:hover {
     background-color: #E3C6A5 rgba(212, 212, 204, 0.8); 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
     text-align: justify;
+}
+
+@keyframes animacionSuperior {
+    from {
+        transform: translateY(-100%);
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+
+@keyframes animacionInferior {
+    from {
+        transform: translateY(100%);
+        filter: blur(20px);
+        opacity: 0;
+    }
 }
