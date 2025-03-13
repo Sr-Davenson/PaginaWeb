@@ -1,9 +1,6 @@
 body{
     padding: 0%;
     margin: 0%;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #E9D8B7;
     font-family:Arial, Helvetica, sans-serif;
 
@@ -84,7 +81,6 @@ body{
     justify-content: center;
     animation: animacion 1s ease-in-out;
     border-radius: 15px;
-
 }
 
 .introduction {
@@ -97,7 +93,7 @@ body{
     max-width: 40%;
     height: auto;
     margin-right: 10px;      /* Añade espacio entre la imagen y el texto */
-    border-radius: 10px;
+    border-top-left-radius: 15px;
     border-width: 5px;
 }
 
@@ -229,7 +225,6 @@ body{
 }
 .quadrant2 {
     border-radius: 15px;
-
     display: flex;
     position: 100%;
     font-size: 24px;
