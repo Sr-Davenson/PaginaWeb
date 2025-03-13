@@ -1,13 +1,17 @@
 body{
     padding: 0%;
-    Margin: 0%;
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #E9D8B7;
     font-family:Arial, Helvetica, sans-serif;
 
 }
 
 .header {
-    background: -webkit-linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    background: -webkit-linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
     width: 98.8vw;
     height: 15vh;
     display: flex;
@@ -90,11 +94,10 @@ body{
 }
 
 .introduction img {
-    border-top-left-radius:15px ;
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
-    margin-right: 20px;      /* Añade espacio entre la imagen y el texto */
-    border-style: solid;
+    margin-right: 10px;      /* Añade espacio entre la imagen y el texto */
+    border-radius: 10px;
     border-width: 5px;
 }
 
@@ -109,37 +112,39 @@ body{
 }
 
 .history h2{
-    margin-top: 8%;
+    margin-top: 5%;
     font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #4b382a;
 }
 
 .history img{
-    width: 40%;
+    width: 50%;
     height: auto;
-    margin-left: 30%;
+    margin-left: 25%;
     border-width: 5px;
-    border-style:solid;
+    border-radius: 10px;
 }
 .history p{
+    margin-top: 5%;
     font-size: 20px;
     text-align: center;
 }
 
 .mission {
-    margin-top: 8%;
+    margin-top: 5%;
     display: flex;           
     flex-direction: row-reverse;
     align-items: center;
 }
 
 .mission img {
-    max-width: 30%;
+    max-width: 18%;
     height: auto;
-    margin-left: 20px;    
-    border-style: solid;
+    margin-left: 10px;    
+    border-radius: 10px;
     border-width: 5px;
 }
 
@@ -162,16 +167,17 @@ body{
 }
 
 .vision {
-    margin-top: 8%;
+    margin-top: 5%;
     display: flex;           /* Aplica Flexbox a toda la sección */
     align-items: center;     /* Alinea verticalmente los elementos */
 }
 
 .vision img {
-    max-width: 30%;
+    margin-top: -3%;
+    max-width: 40%;
     height: auto;
-    margin-right: 20px;      /* Añade espacio entre la imagen y el texto */
-    border-style: solid;
+    margin-right: 10px;      /* Añade espacio entre la imagen y el texto */
+    border-radius: 10px;
     border-width: 5px;
 }
 
@@ -194,29 +200,31 @@ body{
 }
 
 .quadrants {
-    margin-top: 8%;
+    margin-top: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
     grid-template-rows: 1fr; /* Dos filas iguales */
     height: auto; /* O ajusta según lo que necesites */
     gap: 10px; /* Espacio entre los cuadrantes */
 }
-
+.quadrants h1{
+    color: #4b382a;
+}
 .quadrant1 {
     border-radius: 15px;
     display: flex;
     justify-content: center;
     font-size: 24px;
     font-weight: bold;
-    border: 2px solid black;
-    background-color: #CDA54D; /* Color de fondo */
+    border-radius: 10px;
+    background-color: #ffffff; /* Color de fondo */
 }
 .quadrant1 p{ 
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0;
 }
 .quadrant2 p {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0;
 }
 .quadrant2 {
@@ -226,38 +234,10 @@ body{
     position: 100%;
     font-size: 24px;
     font-weight: bold;
-    border: 2px solid black;
-    background-color: #CDA54D; /* Color de fondo */
+    border-radius: 10px;
+    background-color: #ffffff; /* Color de fondo */
 }
 
-.infoComplementaria h2 {
-    font-size: 50px;
-    margin-top: 8%;
-    text-align: center;
-
-}
-
-
-.contenedor{
-    margin-top: 8%;
-    display: flex;
-    justify-content: center;
-}
-
-.img1 {
-    width: 30%;
-    height: auto;
-}
-
-.img2 {
-    width: 30%;
-    height: auto;
-}
-
-.img3 {
-    width: 30%;
-    height: auto;
-}
 @keyframes animacion {
     from {
         filter: blur(20px);
