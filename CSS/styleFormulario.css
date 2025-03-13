@@ -163,3 +163,24 @@ h1{
         opacity: 0;
     }
 }
+
+footer {
+    background-color: #080808;
+    color: #eaeaea;
+    width: 98.8vw; 
+    text-align: center; 
+    padding: 20px 0px; 
+}
+
+footer img {
+    display: block;
+    margin: 10px auto; 
+    height: auto;
+    width: 5vw;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2) contrast(1.1);
+}
