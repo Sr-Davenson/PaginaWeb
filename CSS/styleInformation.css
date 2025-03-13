@@ -2,19 +2,19 @@ body{
     padding: 0%;
     Margin: 0%;
     background-color: #E9D8B7;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
+
 }
 
 .header {
     background: -webkit-linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
-
     width: 98.8vw;
     height: 15vh;
     display: flex;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: sticky;
     top: 0.01%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-bottom-right-radius: 300px;
     border-bottom-left-radius: 300px;
     animation: animacionSuperior 1s ease-in-out;
@@ -63,9 +63,14 @@ body{
 .botonInicio a:active { 
     background: #faaf4d;
 }
-
+.nav{
+    margin: auto 5% 0% 5%;
+}
 .cuerpo{
     animation: animacionInferior 1s ease-in-out;
+    background-color: #ffffff;
+    border-radius: 15px;
+
 }
 .encabezado h1 {
     font-size: 50px;
@@ -74,6 +79,8 @@ body{
     display: flex;
     justify-content: center;
     animation: animacion 1s ease-in-out;
+    border-radius: 15px;
+
 }
 
 .introduction {
@@ -83,6 +90,7 @@ body{
 }
 
 .introduction img {
+    border-top-left-radius:15px ;
     max-width: 30%;
     height: auto;
     margin-right: 20px;      /* Añade espacio entre la imagen y el texto */
@@ -195,6 +203,7 @@ body{
 }
 
 .quadrant1 {
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     font-size: 24px;
@@ -203,7 +212,6 @@ body{
     background-color: #CDA54D; /* Color de fondo */
 }
 .quadrant1 p{ 
-
     font-size: 20px;
     margin-top: 0;
 }
@@ -212,6 +220,8 @@ body{
     margin-top: 0;
 }
 .quadrant2 {
+    border-radius: 15px;
+
     display: flex;
     position: 100%;
     font-size: 24px;
