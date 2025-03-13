@@ -9,7 +9,7 @@ body{
 }
 
 .menu {
-    background: -webkit-linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    background: -webkit-linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);         background: linear-gradient(90deg, #000000,#141007,#a4843d,#a4843d,#cda54d);                                             
     width: 98.8vw;
     height: 15vh;
     display: flex;
@@ -19,13 +19,16 @@ body{
     top: 0.01%;
     border-bottom-right-radius: 300px;
     border-bottom-left-radius: 300px;
+    animation: animacionSuperior 1s ease-in-out;
 }
 
 .menu img {
     margin-left: 35%;
     height: 100%;
     width: 20%;
+    transition-property: background-color, box-shadow;
     transition: transform 0.3s ease-in-out,filter 0.3s ease;
+    animation: animacionSuperior 1.1s ease-in-out;
 }
 
 .menu img:hover {
@@ -39,6 +42,7 @@ body{
     align-items: flex-end;
     width: 100vh;
     margin-right: 7%;
+    animation: animacionSuperior 1.1s ease-in-out;
 }
 
 .botonInicio a {
@@ -60,12 +64,15 @@ body{
 
 .botonInicio a:active { 
     background: #faaf4d;
-}
+}   
 
 .container{
+    background-color: #ffffff;
     width: 80%;
-    margin: auto;
+    margin: 5% auto auto auto;
+    border-radius: 15px;
     padding: 40px 0;
+    animation: animacionInferior 1s ease-in-out;
 }
 
 .title {
@@ -151,4 +158,20 @@ body{
 .info-bot:hover {
     background-color: #9a5c3a;
     transform: scale(1.05);
+}
+
+@keyframes animacionSuperior {
+    from {
+        transform: translateY(-100%);
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+
+@keyframes animacionInferior {
+    from {
+        transform: translateY(100%);
+        filter: blur(20px);
+        opacity: 0;
+    }
 }
