@@ -195,3 +195,21 @@ footer img:hover {
     transform: scale(1.1);
     filter: brightness(1.2) contrast(1.1);
 }
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 90%;
+    margin-top: -11%;
+}
+
+.redes a {
+    color: #eaeaea;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #ff9800;
+}

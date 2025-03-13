@@ -83,26 +83,26 @@ body{
 
 .introduction {
     margin-top: 10%;
-    display: flex;           /* Aplica Flexbox a toda la sección */
-    align-items: center;     /* Alinea verticalmente los elementos */
+    display: flex;
+    align-items: center;
 }
 
 .introduction img {
     max-width: 40%;
     height: auto;
-    margin-right: 10px;      /* Añade espacio entre la imagen y el texto */
+    margin-right: 10px;
     border-top-left-radius: 15px;
     border-width: 5px;
 }
 
 .introduction section {
-    flex: 1;                 /* Permite que el contenido ocupe el espacio restante */
+    flex: 1;
 }
 
 .introduction p {
     font-size: 20px;
     text-align: center;
-    margin: 0;               /* Elimina el margen predeterminado del h2 */
+    margin: 0;
 }
 
 .history h2{
@@ -111,7 +111,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #faaf4d;;
+    color: #faaf4d;
 }
 
 .history img{
@@ -163,21 +163,21 @@ body{
 
 .vision {
     margin-top: 5%;
-    display: flex;           /* Aplica Flexbox a toda la sección */
-    align-items: center;     /* Alinea verticalmente los elementos */
+    display: flex;           
+    align-items: center;
 }
 
 .vision img {
     margin-top: -3%;
     max-width: 40%;
     height: auto;
-    margin-right: 10px;      /* Añade espacio entre la imagen y el texto */
+    margin-right: 10px;     
     border-radius: 10px;
     border-width: 5px;
 }
 
 .vision section {
-    flex: 1;                 /* Permite que el contenido ocupe el espacio restante */
+    flex: 1;
 }
 
 .vision h2{
@@ -192,7 +192,7 @@ body{
 .vision p {
     font-size: 20px;
     text-align: center;
-    margin: 0;               /* Elimina el margen predeterminado del h2 */
+    margin: 0;
 }
 
 .quadrants {
@@ -213,7 +213,7 @@ body{
     font-size: 24px;
     font-weight: bold;
     border-radius: 10px;
-    background-color: #ffffff; /* Color de fondo */
+    background-color: #ffffff;
 }
 .quadrant1 p{ 
     font-size: 15px;
@@ -230,7 +230,7 @@ body{
     font-size: 24px;
     font-weight: bold;
     border-radius: 10px;
-    background-color: #ffffff; /* Color de fondo */
+    background-color: #ffffff; 
 }
 
 @keyframes animacion {
@@ -262,7 +262,6 @@ footer {
     width: 98.9vw;
     text-align: center; 
     padding: 20px 0px; 
-    display: flex;
     justify-content: center;
 }
 
@@ -280,3 +279,22 @@ footer img:hover {
     transform: scale(1.1);
     filter: brightness(1.2) contrast(1.1);
 }
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 90%;
+    margin-top: -11%;
+}
+
+.redes a {
+    color: #eaeaea;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #ff9800;
+}
+
